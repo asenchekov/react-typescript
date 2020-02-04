@@ -29,4 +29,5 @@ export interface IEpisodeProps {
   episodes: Array<IEpisode>
   toggleFavAction: CallableFunction
   favorites: Array<IEpisode>
+  dispatch: any
 }

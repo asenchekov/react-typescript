@@ -1,37 +1,10 @@
-import React, { useContext, useEffect } from 'react'
-
-import { IEpisode, IAction } from './interfaces'
-
+import React, { useContext } from 'react'
+import { Link, RouteComponentProps } from '@reach/router'
 import { Store } from './Store'
-import EpisodesList from './episodesList'
 
 
-const App: React.FC = () => {
-  const {state, dispatch} = useContext(Store)
-
-  useEffect((): void => {
-    state.episodes.length === 0 && fetchDataAction()
-  });
-
-  const fetchDataAction = async () => {
-    const url = 'https://api.tvmaze.com/singlesearch/shows?q=rick-&-morty&embed=episodes'
-    const data = await fetch(url)
-    const dataJSON = await data.json()
-    return dispatch({
-      type: 'FETCH_DATA',
-      payload: dataJSON._embedded.episodes
-    })
-  }
-
-  const toggleFavAction = (episode: IEpisode): IAction => {
-    const episodeInFav = state.favorites.map((ep: IEpisode): number => ep.id)
-      .includes(episode.id)
-
-    return dispatch({
-      type: episodeInFav ? 'REMOVE_FAV' : 'ADD_FAV',
-      payload: episode
-    })
-  }
+const App: React.FC<RouteComponentProps> = (props: any) => {
+  const { state } = useContext(Store)
 
   return (
     <>
@@ -41,14 +14,11 @@ const App: React.FC = () => {
           <p>Pick your favorite episode!!!</p>
         </div>
         <div>
-          Favorite(s): {state.favorites.length}
+          <Link to='/'>Home</Link>
+          <Link to='/faves'>Favorite(s): {state.favorites.length}</Link>
         </div>
       </header>
-      <EpisodesList
-        episodes={state.episodes}
-        toggleFavAction={toggleFavAction}
-        favorites={state.favorites}
-      />
+      {props.children}
     </>
   );
 }

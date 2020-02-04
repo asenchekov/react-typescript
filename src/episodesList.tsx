@@ -1,11 +1,17 @@
-import React from 'react';
+import React from 'react'
 
 import { IEpisode, IEpisodeProps } from './interfaces'
 
 
-const episodesList: React.FC<IEpisodeProps> = ({episodes, toggleFavAction, favorites}) => (
+const episodesList: React.FC<IEpisodeProps> = ({
+  episodes,
+  toggleFavAction,
+  favorites,
+  dispatch,
+}) => (
   <section className="episode-layout">
-    {episodes.map(({id, image, name, season, number}: IEpisode) => {
+    {episodes.map((episode: IEpisode) => {
+      const {id, image, name, season, number} = episode
       return (
         <section
           key={id}
@@ -23,7 +29,7 @@ const episodesList: React.FC<IEpisodeProps> = ({episodes, toggleFavAction, favor
               Season: {season} Number: {number}
             </div>
             <button
-              onClick={() => toggleFavAction({id, image, name, season, number})}
+              onClick={() => toggleFavAction(episode, favorites, dispatch)}
             >
               {
                 favorites.map((episode: IEpisode) => episode.id)
@@ -37,4 +43,4 @@ const episodesList: React.FC<IEpisodeProps> = ({episodes, toggleFavAction, favor
   </section>
 )
 
-export default episodesList;
+export default episodesList
