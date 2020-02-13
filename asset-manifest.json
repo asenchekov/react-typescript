@@ -1,0 +1,24 @@
+{
+  "files": {
+    "static/js/0.121dc9e2.chunk.js": "/favorite-rick-and-morty-episodes/static/js/0.121dc9e2.chunk.js",
+    "static/js/0.121dc9e2.chunk.js.map": "/favorite-rick-and-morty-episodes/static/js/0.121dc9e2.chunk.js.map",
+    "main.css": "/favorite-rick-and-morty-episodes/static/css/main.54a1eda5.chunk.css",
+    "main.js": "/favorite-rick-and-morty-episodes/static/js/main.179bac20.chunk.js",
+    "main.js.map": "/favorite-rick-and-morty-episodes/static/js/main.179bac20.chunk.js.map",
+    "runtime-main.js": "/favorite-rick-and-morty-episodes/static/js/runtime-main.a71083ae.js",
+    "runtime-main.js.map": "/favorite-rick-and-morty-episodes/static/js/runtime-main.a71083ae.js.map",
+    "static/js/3.0645de7b.chunk.js": "/favorite-rick-and-morty-episodes/static/js/3.0645de7b.chunk.js",
+    "static/js/3.0645de7b.chunk.js.map": "/favorite-rick-and-morty-episodes/static/js/3.0645de7b.chunk.js.map",
+    "index.html": "/favorite-rick-and-morty-episodes/index.html",
+    "precache-manifest.ccfdbadc9f3a2af6d247c18babaa63ca.js": "/favorite-rick-and-morty-episodes/precache-manifest.ccfdbadc9f3a2af6d247c18babaa63ca.js",
+    "service-worker.js": "/favorite-rick-and-morty-episodes/service-worker.js",
+    "static/css/main.54a1eda5.chunk.css.map": "/favorite-rick-and-morty-episodes/static/css/main.54a1eda5.chunk.css.map",
+    "static/js/3.0645de7b.chunk.js.LICENSE": "/favorite-rick-and-morty-episodes/static/js/3.0645de7b.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a71083ae.js",
+    "static/js/3.0645de7b.chunk.js",
+    "static/css/main.54a1eda5.chunk.css",
+    "static/js/main.179bac20.chunk.js"
+  ]
+}
