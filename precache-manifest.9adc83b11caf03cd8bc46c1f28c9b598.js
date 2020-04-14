@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a49f15513f3a9f2cdba2f602db1d7de1",
+    "revision": "ecb07cf91bd795229022a0fb8d678c0e",
     "url": "/favorite-rick-and-morty-episodes/index.html"
   },
   {
-    "revision": "36f560f804ff8bc61036",
+    "revision": "cb3ab38cb9f2c1b26526",
     "url": "/favorite-rick-and-morty-episodes/static/css/main.54a1eda5.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favorite-rick-and-morty-episodes/static/js/0.0c69b9ea.chunk.js"
   },
   {
-    "revision": "09eb58bf625c1519c198",
-    "url": "/favorite-rick-and-morty-episodes/static/js/3.0645de7b.chunk.js"
+    "revision": "22b92bfb0cbc40bd7dc0",
+    "url": "/favorite-rick-and-morty-episodes/static/js/3.1457b447.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/favorite-rick-and-morty-episodes/static/js/3.0645de7b.chunk.js.LICENSE"
+    "url": "/favorite-rick-and-morty-episodes/static/js/3.1457b447.chunk.js.LICENSE"
   },
   {
-    "revision": "36f560f804ff8bc61036",
-    "url": "/favorite-rick-and-morty-episodes/static/js/main.26e488b7.chunk.js"
+    "revision": "cb3ab38cb9f2c1b26526",
+    "url": "/favorite-rick-and-morty-episodes/static/js/main.4d086d75.chunk.js"
   },
   {
     "revision": "a7ff10a1621f9b2c2e54",
