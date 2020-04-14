@@ -18,7 +18,7 @@ const episodesList: React.FC<IEpisodeProps> = ({
           className="episode-box"
         >
           <img
-            src={image.medium}
+            src={image && image.medium}
             alt={`Rick and Morty ${name}`}
           />
           <div>
