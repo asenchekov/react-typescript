@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bc0ec4c16703b2dac4b36c5e71953a2",
+    "revision": "cbc0fe8b496812744ef0f641b8e73268",
     "url": "/favorite-rick-and-morty-episodes/index.html"
   },
   {
-    "revision": "90a15fb7707041883d35",
+    "revision": "d30d58c68d3ffe2b294e",
     "url": "/favorite-rick-and-morty-episodes/static/css/main.54a1eda5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favorite-rick-and-morty-episodes/static/js/3.0645de7b.chunk.js.LICENSE"
   },
   {
-    "revision": "90a15fb7707041883d35",
-    "url": "/favorite-rick-and-morty-episodes/static/js/main.c4dbb64d.chunk.js"
+    "revision": "d30d58c68d3ffe2b294e",
+    "url": "/favorite-rick-and-morty-episodes/static/js/main.9924910c.chunk.js"
   },
   {
     "revision": "a7ff10a1621f9b2c2e54",
